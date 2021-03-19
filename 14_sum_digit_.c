@@ -6,7 +6,7 @@ int main()//where the execution start from main function
 {
   int Number, Reminder, Sum=0;//declare the variable and it value
 
-  printf("\n Please Enter any number\n");//Entre the number
+  printf("\n Please Enter any number\n");//Enter the number
   scanf("%d", &Number);//The value of number is take from user
 
   while(Number > 0)//number is greater than 0
