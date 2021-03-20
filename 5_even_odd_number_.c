@@ -2,7 +2,7 @@
 int main(){//where the execution start from the main
 	int num;//decalre the variable
 	printf("Enter the number\n");
-	scanf("%d", &num);//scanf used for to take input for user
+	scanf("%d", &num);//The value of num is take by user
 	if (num%2==0)//num are divisible by 2
 	{printf("This number is even=%d\n",num);//if the num is divisible by 2 print if condition
 	
