@@ -7,7 +7,7 @@ int main()//where the execution start from main function
    FILE *fptr;//declare file
 
    // use appropriate location if you are using MacOS or Linux
-   fptr = fopen("C:\\program.txt","w");
+   fptr = fopen("C:writing.txt","w");
 
    if(fptr == NULL)
    {

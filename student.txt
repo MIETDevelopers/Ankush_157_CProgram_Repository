@@ -1,0 +1,12 @@
+
+Name: ankush 
+Marks=66 
+
+Name: aman 
+Marks=65 
+
+Name: john 
+Marks=99 
+
+Name: max 
+Marks=30 

@@ -6,7 +6,7 @@ int main()
    int num;//declare interger and its variable num
    FILE *fptr;
    //if conditon start
-   if ((fptr = fopen("C:\\User","r")) == NULL){
+   if ((fptr = fopen("student.csv.txt","r")) == NULL){
        printf("Error! opening file");
 
        // Program exits if the file pointer returns NULL.
