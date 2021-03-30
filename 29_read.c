@@ -1,7 +1,7 @@
 #include <stdio.h>//preprocessor directive to include standard input or ouput header file
 #include <stdlib.h>
 
-int main()
+int main()//where the execution start from main function
 {
    int num;//declare interger and its variable num
    FILE *fptr;
