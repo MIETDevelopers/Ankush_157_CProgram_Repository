@@ -1,5 +1,5 @@
 #include <stdio.h>//preprocessor directive to include standard input or output header file
-#include <stdlib.h>
+#include <stdlib.h>//preprocessor directive to include standard library header file
 
 int main()//where the execution start from main function
 {
