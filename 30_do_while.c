@@ -5,7 +5,7 @@ int main()//where the execution start from main function
 	//start of do while loop
 	do
 	{
-		printf("Value of variable j is: %d\n", j);//print statemnet and then checked condition
+		printf("Value of variable j is: %d\n", j);//print statemenet and then checked condition
 		j++;
 	}while (j<=3);
 	return 0;//return statement
