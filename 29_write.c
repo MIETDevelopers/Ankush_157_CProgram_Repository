@@ -11,7 +11,7 @@ int main()//where the execution start from main function
 
    if(fptr == NULL)
    {
-      printf("Error!");//if statement true it print 
+      printf("Error!");//if statement true it print
       exit(1);             
    }
 
