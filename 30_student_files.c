@@ -3,7 +3,7 @@
 int main(){
    char name[50];
    int marks,i,n;
-   printf("Enter number of students:\n ");
+   printf("Enter number of students:\n ");//Enter the number of student
    scanf("%d",&n);
    FILE *fptr;
    fptr=(fopen("C:/Users/pc/Documents/student.txt","a"));

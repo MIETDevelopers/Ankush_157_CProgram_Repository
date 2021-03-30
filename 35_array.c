@@ -18,5 +18,5 @@ int main() {
   for(int i = 0; i < 10; ++i) {
      printf("%d\n", myarr[i]);
   }
-  return 0;
+  return 0;//return statement
 }
