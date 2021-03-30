@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include <stdio.h>//preprocesssor directive to include standard input or output header file
 
-int main()
+int main()//Where the execution start from main 
 {
-    int a;  
-    a = 10;
+    int a;  //declare the integer and a is varaible
+    a = 10;//declare the a and its value is 10
     int *p = &a;     // declaring and initializing the pointer
 
     //prints the value of 'a'
@@ -15,5 +15,5 @@ int main()
     
     printf("%u\n", &p);    //prints address of 'p'
     
-    return 0;
+    return 0;//return statment
 }
