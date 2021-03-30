@@ -1,6 +1,4 @@
-/*
- * C program to find the biggest of three numbers
- */
+
 #include <stdio.h>//preprocessor directive to include standard input or output header file
  
 void main()
