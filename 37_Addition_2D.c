@@ -1,6 +1,9 @@
+//Author:Ankush kumar
+//Date:23/03/2021
+//Purpose of the program is additionMatrix of 2D array
 #include <stdio.h>//preprocessor directive to include standard input or output header file
 
-int main()//where the executiona start from main
+int main()//The execution start from main function
 {
     int rowCount, columnCount, i, j;//Declare integer and its variable
     int firstMatrix[10][10], secondMatrix[10][10], resultMatrix[10][10];//declare the 2D array
