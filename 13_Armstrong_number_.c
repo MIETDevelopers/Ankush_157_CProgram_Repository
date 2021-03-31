@@ -1,5 +1,8 @@
+//Author:Ankush kumar
+//Date:26/03/2021
+//purpose of the program is to check the number is Armstrong or not
 #include<stdio.h>//preprocessor directive to include standard input or output header file 
- int main(){//where the execution start from main      
+ int main(){//The execution start from main function      
 	int n,r,sum=0,temp;//declare the variable    
 	printf("enter the number=\n"); //enter the number   
 	scanf("%d",&n); //the value of n is takes from user   
