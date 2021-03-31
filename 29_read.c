@@ -1,7 +1,10 @@
+//Author:Ankush kumar
+//Date:23/03/2021
+//Purpose of the program is to read the csv file
 #include <stdio.h>//preprocessor directive to include standard input or ouput header file
 #include <stdlib.h>//preprocessor directive to include standard library header file
 
-int main()//where the execution start from main function
+int main()//The execution start from main function
 {
    int num;//declare interger and its variable num
    FILE *fptr;
