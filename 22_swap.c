@@ -1,8 +1,11 @@
+//Author:Ankush kumar
+//Date: 25/03/2021
+//purpose of the program is swaping of two number using call by reference
 #include <stdio.h>//pre processor directive to include standard input or output header file
  
 void swap(int*, int*);//swap fuction declare
  
-int main()//where the execution start from main function
+int main()//The execution start from main function
 {
    int x, y;//declare x,y variable
  
