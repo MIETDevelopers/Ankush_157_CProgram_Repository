@@ -1,8 +1,11 @@
+//Author:Ankush kumar
+//Date:26/03/2021
+//purpose of the program to find the factorial number with recursion
 #include <stdio.h>//preprocessor directive to include standard input or output header file
  
 int factorial(int);
  
-int main()//where the execution start from the main function
+int main()//The execution start from the main function
 {
     int num;//declare num variable
     int result;//declare result variable
