@@ -1,6 +1,6 @@
 //Author:Ankush kumar
 //Date:26/03/2021
-//purpose of the program is to find the number is even or odd
+//purpose of the program is to check the number is prime or not
 #include<stdio.h>//preprocessor directive to include standard input or outpur header file
 int main(){//The execution start from main function
     int a,i=2,f=1;//declare the variable
