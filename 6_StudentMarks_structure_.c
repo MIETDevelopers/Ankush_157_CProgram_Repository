@@ -1,3 +1,6 @@
+//Author:Ankush kumar
+//Date:23/03/2021
+//Purpose of the program  to store the information of student marks using structure 
 #include<stdio.h>//preprocessor directive to include standard input output header file
 struct student{//The name of structure is student
 	//structure member
@@ -9,7 +12,7 @@ struct student{//The name of structure is student
 	float TotalMarks;//flaot is datatype or TotalMarks its variable
 
 };
-	int main(){//where the execution start from main
+	int main(){//The execution start from main function
 		struct student studentMarks;//studentMarks is the variable of structure Student
 		//Assigning the values of each struct member here
 		studentMarks.rollnumber=110;// 
