@@ -1,7 +1,10 @@
+//Author:Ankush kumar
+//Date:26/03/2021
+//purpose of the program is sorting an array using insertion sort
 #include<stdio.h>//preprocessor directive to include standard input or output header file
 #include <math.h>//uses for Math operation
 
-int main()//where the execution start from main function
+int main()//The execution start from main function
 {
     int a[] = {16, 19, 11, 15, 10, 12, 14};//define array a and its size
     int i,j;//declare variable i,j

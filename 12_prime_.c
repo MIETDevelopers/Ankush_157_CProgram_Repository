@@ -1,5 +1,8 @@
+//Author:Ankush kumar
+//Date:26/03/2021
+//purpose of the program is to check the number is prime or not
 #include<stdio.h>//preprocessor directive to include standard input or outpur header file
-int main(){//Where the execution start from main
+int main(){//The execution start from main function
     int a,i=2,f=1;//declare the variable
     printf("Enter a number:\n");//enter the number
     scanf("%d",&a);// the input of a is take by user

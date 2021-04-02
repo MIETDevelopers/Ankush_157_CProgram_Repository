@@ -1,3 +1,6 @@
+//Author:Ankush kumar
+//Date:26/03/2021
+//purpose of the program is to find the fibonacci number using recursion
 #include<stdio.h>//preprocessor directive to include standard input or output header file
  
 int Fibonacci(int);//declare the fibonacci variable

@@ -1,5 +1,8 @@
+//Author:Ankush kumar
+//Date:26/03/2021
+//purpose of the program to find the  To find maximum element and index in array
 #include <stdio.h>//preprocessor directive to include standard input or output
-int main()//where the exeuction start from main function
+int main()//The exeuction start from main function
 {
   int array[100], size, c, location = 0;//take array and it size or variable
 

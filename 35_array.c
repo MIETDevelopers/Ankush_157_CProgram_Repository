@@ -1,4 +1,4 @@
-// Program to take 5 values from the user and store them in an array
+// Program to take 10 values from the user and store them in an array
 // Print the elements stored in the array
 #include <stdio.h>
 

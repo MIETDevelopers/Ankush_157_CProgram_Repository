@@ -1,6 +1,9 @@
+//Author:Ankush kumar
+//Date :26/03/2021
+//purpose of the program to find Fibonacci number
 #include<stdio.h>//preprocessor directive to include standard input or output header file
  
-int main() //where the execution start from here 
+int main() //The  execution start from main function 
 {  
  int n1=0,n2=1,n3,i,number;  //declare the variable or its value
  printf("Enter the number of elements:");  //Enter the number of elements

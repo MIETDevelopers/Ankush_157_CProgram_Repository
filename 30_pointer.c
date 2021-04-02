@@ -1,6 +1,9 @@
+//Author:Ankush kumar
+//Date:23/03/2021
+//purpose of the program is declaration and initialization of pointer
 #include <stdio.h>//preprocesssor directive to include standard input or output header file
 
-int main()//Where the execution start from main 
+int main()//The execution start from main function 
 {
     int a;  //declare the integer and a is varaible
     a = 10;//declare the a and its value is 10

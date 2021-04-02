@@ -1,4 +1,6 @@
-#include <stdio.h>//preprocesspr directive to include standard input or output header file
+//Author:Ankush kumar
+//Date:25/03/2021
+#include <stdio.h>//preprocessor directive to include standard input or output header file
 int main()
 {
     char name[30];//Declare character
