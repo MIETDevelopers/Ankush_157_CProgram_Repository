@@ -6,7 +6,7 @@ int main(){
     scanf("%c", &operator); //It will scan the operater entered by user.
     printf("Enter two operands:");
     scanf("%lf %lf",&a, &b); //It will scan the numbers entered by user.
-    switch(operator)
+    switch(operator) //Switch case is used to perfom the calculation case that is scanned (in line 6) based on user input.
     {
         case '+':
             printf("%.2lf + %.2lf = %.2lf",a, b, a+b); //Addition Function
@@ -23,7 +23,7 @@ int main(){
         case '/':
             printf("%.2lf / %.2lf = %.2lf",a, b, a/b); //Division Function
             break;
-    printf("Error encountered by the input values");
+    printf("Error encountered by the input values");  //Default
     }
     return 0;
 }

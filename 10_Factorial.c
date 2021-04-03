@@ -1,18 +1,13 @@
-//Author:Ankush kumar
-//Date:26/03/2021
-//purpose of the program to find the factorial of number
-#include <stdio.h>//preprocessor to include standard input or output header file
- 
-int main()//The execution start from main function
-{
-  int c, n, f = 1;//declare the variable and its value
- 
-  printf("Enter the number\n");//Entre the number for Factorial
-  scanf("%d", &n);// The n is take from user
-  for (c = 1; c <= n; c++)//loop start from 1 n is take by user
-    f = f * c;
- 
-  printf("Factorial of %d = %d\n", n, f);//print the output
- 
-  return 0;//return statement
+//A C Program to calculate Factorial of a number.               © Ishav Verma 18/March/2021
+#include<stdio.h>  
+int main()    
+{    
+ int i,fact=1,number;    
+ printf("Enter a number: ");    
+  scanf("%d",&number);    //It will scan the number entered by user.
+    for(i=1;i<=number;i++){    
+      fact=fact*i;   //Formula 
+  }    
+  printf("Factorial of %d is: %d",number,fact);    //This will give us output.
+return 0;  
 }

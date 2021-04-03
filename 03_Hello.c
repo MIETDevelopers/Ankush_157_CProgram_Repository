@@ -1,7 +1,8 @@
-//Author:Ankush kumar
-//Date:26/03/2021
-#include<stdio.h>//preprocessor directive to include standard input or output header file
-int main(){//The execution of program start from main
-	printf("Hello world");//print the output
-	return 0;//return statement 
-}
+//A basic C Program to print Hello World.				© Ishav Verma 18/March/2021
+//Start
+#include<stdio.h> //Including standard input ouput header files from library.
+int main(){ 
+	printf("Hello Buddy!!");//Here we entered the texted to be printed.
+	return 0;//Returning.
+} 
+//End 

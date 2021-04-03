@@ -1,20 +1,30 @@
-/*Program to find the area of circle,square,rectangle or perimeter of circle,square,recatngle:
-The formula of areaofcircle=22/7*radius*radius, perimeterofcircle=22/7*radius:
-The formula of areaofsquare=side*side,perimeterofsquare=4*(side):
-The formula of areaofrectangle=lenght*breath,perimeterofrectangle=2*(lenght+breath):*/
-#include<stdio.h>//preprocessor directive to include standard input or output header file
-int main(){//execution start from main function
-	//declare datatype or its varable and value
-	float radiusofcircle=23;
-	float sideofsquare=7;
-	float lenghtofrectangle=8;
-	float breathofrectangle=9;
-	//printing the output
-	printf("areaofcircle=%f\n",((22*radiusofcircle*radiusofcircle)/7));
-	printf("perimeterofcircle=%f\n",((22*radiusofcircle)/7));
-	printf("areaofsquare=%f\n",(sideofsquare*sideofsquare));
-	printf("perimeterofsquare=%f\n",(4*(sideofsquare)));
-	printf("areaofrectangle=%f\n",(lenghtofrectangle*breathofrectangle));
-	printf("perimeterofrectangle=%f\n",(2*(lenghtofrectangle+breathofrectangle)));
-	return 0;//return statment
+//A C Program to calculate Area/Perimeter of different shapes.               © Ishav Verma 18/March/2021
+//Area of Square: side*side: side
+//Area of Rectangle: Length * Breadth: Length, Breadth
+//Area of Circle: (22/7)*r*r: radius 
+#include <stdio.h>
+#include <math.h>
+int main(){
+	char purpose;
+	printf("Enter the mode of operation.\n 1.Area of Circle.\n 2.Area of Square.\n 3.Area of Rectangle.\n");
+	scanf("%c", &purpose); //It will scan the operater entered by user.
+	float value1, value2;
+	printf("Enter values of the shape:\n");
+	scanf("%f %f", &value1, &value2); //It will scan the numbers entered by user.
+	switch(purpose) //Switch-Case Function used.
+	{
+		case'1':
+			printf("Area of Circle = %f", ((22*value1*value1)/7));
+			break;
+		case'2':
+			printf("Area of Square = %f", value1*value1);
+			break;	
+		case'3':
+			printf("Area of Rectangle = %f", value1*value2);
+			break;
+		
+		default:
+            printf("Error eccoured, Please enter the values correctly!");	
+	}
+	return 0; 
 }
