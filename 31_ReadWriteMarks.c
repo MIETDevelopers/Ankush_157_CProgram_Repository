@@ -1,6 +1,8 @@
-//A C program to Program for reading and writing the student marks data to files.				© Ishav Verma 21/March/2021
-#include <stdio.h>
-#include <stdlib.h>
+//Author:Ankush kumar
+//Date:26/03/2021
+//Purpose of the program to Program for reading and writing the student marks data to files
+#include <stdio.h>//preprocessor directive to include standard input or output header file
+#include <stdlib.h>//preprocessor directive to include library header file
 struct s {
 	//Creating a user defined data type using structures.
 	char name[50];
