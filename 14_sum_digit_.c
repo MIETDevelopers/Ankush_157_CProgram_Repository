@@ -1,8 +1,10 @@
-//C Program to Find Sum of Digits of a Number using While Loop
+//Author:Ankush kumar
+//Date:25/03/2021
+//Purpose of the Program to Find Sum of Digits of a Number using While Loop
 
 #include <stdio.h>//preprocessor directive to include standard input or output header file
 
-int main()//where the execution start from main function
+int main()//The execution start from main function
 {
   int Number, Reminder, Sum=0;//declare the variable and it value
 
