@@ -1,4 +1,5 @@
-//© Ishav Verma 18/March/2021
+//Author:Ankush kumar
+//Date23/03/2021
 #include <stdio.h>
 int main() {
   int num, originalNum, remainder, result = 0;
