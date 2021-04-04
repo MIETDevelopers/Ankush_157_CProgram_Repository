@@ -1,4 +1,6 @@
-//A C program to Program for reading and writing text files.				© Ishav Verma 21/March/2021
+//Author:Ankush kumar
+//Date:26/03/2021
+//Purpose of the program to Program for reading and writing text files
 #include <stdio.h>
 #include <stdlib.h>
 struct s {
