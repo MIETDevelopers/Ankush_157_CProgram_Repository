@@ -1,6 +1,6 @@
 //Author:Ankush kumar
 //Date:23/03/2021
-//purpose of the program is check arithmetic operation using divison,additon, subtration,Multiplaction
+//purpose of the program is check arithmetic operation using divison,additon, subtration,Multiplication
 #include<stdio.h>//preprocessor directive to include standard input or output header file
 int main(){
     char operator;
