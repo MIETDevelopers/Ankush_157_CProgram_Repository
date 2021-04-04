@@ -1,4 +1,4 @@
-//Author:Ankush kumat
+//Author:Ankush kumar
 //Date:26/03/2021
 //Purpose of the Program to store information of a student using union.
 #include <stdio.h>//preprocessor to directive to include standard input or output header file
