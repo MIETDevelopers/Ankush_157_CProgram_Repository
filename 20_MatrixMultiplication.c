@@ -1,67 +1,50 @@
-//© Ishav Verma 19/March/2021
-#include <stdio.h>
+//Author:Ankush kumar
+//Date:26/03/2021
+#include<stdio.h>//preprocessor directive to include standard input or output header file
 
-void getMatrixElements(int matrix[][10], int row, int column) {
+int main(void)
+{
+  int c, d, p, q, m, n, k, tot = 0;//declare integer variable
+  int fst[10][10], sec[10][10], mul[10][10];//declare  2d array
 
-   printf("\nEnter elements: \n");
-   //Taking input from user.
-   for (int i = 0; i < row; ++i) {
-      for (int j = 0; j < column; ++j) {
-         printf("Enter a%d%d: ", i + 1, j + 1);
-         scanf("%d", &matrix[i][j]);
+  printf(" Please insert the number of rows and columns for first matrix \n ");
+  scanf("%d%d", &m, &n);//The value of m and n is take by user
+
+  printf(" Insert your matrix elements : \n ");//Insert your matrix element 
+  // it will iterate "m" and "n" number of times to feed values in the fst[][] array.
+  for (c = 0; c < m; c++)
+    for (d = 0; d < n; d++)
+      scanf("%d", &fst[c][d]);
+ 
+  printf(" Please insert the number of rows and columns for second matrix\n");
+  scanf(" %d %d", &p, &q);
+
+  if (n != p)
+    printf(" Your given matrices cannot be multiplied with each other. \n ");
+  else
+  {
+    printf(" Insert your elements for second matrix \n ");
+    //Now the condition is checked whether the number of columns in the first matrix is equal to the number of rows in the second matrix
+    for (c = 0; c < p; c++)
+      for (d = 0; d < q; d++)
+        scanf("%d", &sec[c][d] );
+
+    for (c = 0; c < m; c++) {
+      for (d = 0; d < q; d++) {
+        for (k = 0; k < p; k++) {
+          tot = tot + fst[c][k] * sec[k][d];
+        }
+        mul[c][d] = tot;
+        tot = 0;
       }
-   }
-}
-
-void multiplyMatrices(int first[][10],
-                      int second[][10],
-                      int result[][10],
-                      int r1, int c1, int r2, int c2) {
-   //Multiplying matrices (Processing).
-   for (int i = 0; i < r1; ++i) {
-      for (int j = 0; j < c2; ++j) {
-         result[i][j] = 0;
-      }
-   }
-
-   for (int i = 0; i < r1; ++i) {
-      for (int j = 0; j < c2; ++j) {
-         for (int k = 0; k < c1; ++k) {
-            result[i][j] += first[i][k] * second[k][j];
-         }
-      }
-   }
-}
-
-void display(int result[][10], int row, int column) {
-   //Printing multiplied matrix.
-   printf("\nOutput Matrix:\n");
-   for (int i = 0; i < row; ++i) {
-      for (int j = 0; j < column; ++j) {
-         printf("%d  ", result[i][j]);
-         if (j == column - 1)
-            printf("\n");
-      }
-   }
-}
-
-int main() {
-   int first[10][10], second[10][10], result[10][10], r1, c1, r2, c2;
-   printf("Enter rows and column for the first matrix: ");
-   scanf("%d %d", &r1, &c1);
-   printf("Enter rows and column for the second matrix: ");
-   scanf("%d %d", &r2, &c2);
-
-   while (c1 != r2) {
-      printf("Error! Enter rows and columns again.\n");
-      printf("Enter rows and columns for the first matrix: ");
-      scanf("%d%d", &r1, &c1);
-      printf("Enter rows and columns for the second matrix: ");
-      scanf("%d%d", &r2, &c2);
-   }
-   getMatrixElements(first, r1, c1);
-   getMatrixElements(second, r2, c2);(second, result, r1, c1, r2, c2);
-   display(result, r1, c2);
-
-   return 0;
+    }
+ 
+    printf(" The result of matrix multiplication or product of the matrices is: \n "); 
+    for (c = 0; c < m; c++) {//At the same time store every calculated value of tot in the array mul[][] 
+      for (d = 0; d < q; d++)//which will store the resultant multiplication.
+        printf("%d \t", mul[c][d] );
+      printf(" \n ");
+    }
+  }
+  return 0;
 }
