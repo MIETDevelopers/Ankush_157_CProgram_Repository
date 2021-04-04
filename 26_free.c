@@ -1,11 +1,12 @@
-// A C Program demonstrating use of free() function.          © Ishav Verma 20/March/2021
-#include <stdio.h> //Using standard input output header file.
-#include <stdlib.h> //Using standard library header file.
+//Author:Ankush kumar
+//Date:26/03/2021
+#include <stdio.h> //preprocesccor directive to include standard input or output header file
+#include <stdlib.h>  
 	int main() {
-	int* ptr = malloc(10 * sizeof(*ptr));
-		if (ptr != NULL){
+	int* ptr = malloc(10 * sizeof(*ptr));//deallocates the memory previously allocated by a call to malloc
+		if (ptr != NULL){//if ptr is not equal to NuLL it print the value of integer
   		*(ptr + 2) = 50;
-  		printf("Value of the 2nd integer is %d",*(ptr + 2));
+  		printf("Value of the 2nd integer is %d",*(ptr + 2));//print the output
 		}
-	free(ptr);
+	free(ptr);//free(*ptr) deallocates the memory previously allocated by a call to calloc, malloc, or realloc.
 }
