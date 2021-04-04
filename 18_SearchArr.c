@@ -1,37 +1,29 @@
-// A C Program representing Binary Search
-#include <stdio.h>
-int main(){
-  int c, first, last, middle, n, search, array[100];
-
-  printf("Enter number of elements\n");
-  scanf("%d", &n);
-
-  printf("Enter %d integers\n", n);
-
-  for (c = 0; c < n; c++)
-    scanf("%d", &array[c]);
-
-  printf("Enter value to find\n");
-  scanf("%d", &search);
-
-  first = 0;
-  last = n - 1;
-  middle = (first+last)/2;
-
-  while (first <= last) {
-    if (array[middle] < search)
-      first = middle + 1;
-    else if (array[middle] == search) {
-      printf("%d found at location %d.\n", search, middle+1);
-      break;
-    }
+//Author:Ankush kumar
+//Date:26/03/2021
+//Purpose of the program is to search the element of array using linear search 
+#include<stdio.h>//preprocessor directitve to include standard input or output header file
+  
+int main()//The execution start from main function
+{
+    int a[100],i,x,n;//declare the variable and its value 
+    printf("How many elements?\n");//how many element
+    scanf("%d",&n);//The value of n is taken by user
+     
+    printf("Enter array elements\n");//enter the array element
+    for(i=0;i<n;++i)//loop start from 0 , the n is take by user
+        scanf("%d",&a[i]);//The value of a[i] is take by user
+     
+    printf("Enter element to search:\n");//Enter the element for search
+    scanf("%d",&x);//The value of x is take by user
+     
+    for(i=0;i<n;++i)//loop start from 0 , the value of n is take by user
+        if(a[i]==x)
+            break;//break statement 
+     
+    if(i<n)
+        printf("Element found at index %d\n",i);//if element found print the output
     else
-      last = middle - 1;
-
-    middle = (first + last)/2;
-  }
-  if (first > last)
-    printf("Not found! %d isn't present in the list.\n", search);
-
-  return 0;
+        printf("Element not found\n");// element not found
+  
+    return 0;//return statement
 }
